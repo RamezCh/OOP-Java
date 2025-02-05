@@ -15,6 +15,12 @@ public class Main {
         System.out.println(sportBike);
         */
 
+        System.out.println("5 + 3 = " + Calculator.add(5, 3));
+        System.out.println("5 - 3 = " + Calculator.subtract(5, 3));
+        System.out.println("5 * 3 = " + Calculator.multiply(5, 3));
+        System.out.println("5 / 3 = " + Calculator.divide(5.0, 3) + "\n");
+
+
         Book java = new Book("Introduction to Java", "Java Author", "12312412Java");
         Book python = new Book("Introduction to Python", "Python Author", "12312412Python");
 
