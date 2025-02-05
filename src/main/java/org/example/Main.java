@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+        /*
         Car BMW = new Car("BMW", "BMW", "C350", "Schwarz", 2025, 2);
         BMW.startCar();
         System.out.println("The car running with a speed of " + BMW.accelerateCar());
@@ -12,12 +13,23 @@ public class Main {
         System.out.println(BMW.getNumberOfDoors());
         Motorcycle sportBike = new Motorcycle("Bikers", "GGC", 2025, "Sportbike", true, 2);
         System.out.println(sportBike);
+        */
+
+        Book java = new Book("Introduction to Java", "Java Author", "12312412Java");
+        Book python = new Book("Introduction to Python", "Python Author", "12312412Python");
+
+        System.out.println(java);
+        System.out.println(python);
+        java.incrementInstanceCount();
+        java.incrementInstanceCount();
+        Book.incrementTotalCount();
+        System.out.println(java);
+        System.out.println(python);
+
         /*
         Person ramez = new Person("Ramez", "male", 25);
         ramez.introduce();
 
-        Book java = new Book("Introduction to Java", "Java Author", "12312412Java");
-        Book python = new Book("Introduction to Python", "Python Author", "12312412Python");
         Book c = new Book("Introduction to C", "C Author", "12312412C");
 
         System.out.println(java);
