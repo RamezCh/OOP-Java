@@ -10,7 +10,8 @@ public class Main {
         System.out.println(vechile);
         System.out.println(vechile.manufacturer);
         System.out.println(BMW.getNumberOfDoors());
-
+        Motorcycle sportBike = new Motorcycle("Bikers", "GGC", 2025, "Sportbike", true, 2);
+        System.out.println(sportBike);
         /*
         Person ramez = new Person("Ramez", "male", 25);
         ramez.introduce();
