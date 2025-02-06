@@ -2,6 +2,13 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
+
+       MusicPlayer musicPlayer = new MusicPlayer();
+       VideoPlayer videoPlayer = new VideoPlayer();
+       MediaController mediaController = new MediaController();
+       mediaController.playMedia(musicPlayer);
+       mediaController.playMedia(videoPlayer);
+
         /*
         Car BMW = new Car("BMW", "BMW", "C350", "Schwarz", 2025, 2);
         BMW.startCar();
@@ -15,6 +22,7 @@ public class Main {
         System.out.println(sportBike);
         */
 
+        /*
         System.out.println("5 + 3 = " + Calculator.add(5, 3));
         System.out.println("5 - 3 = " + Calculator.subtract(5, 3));
         System.out.println("5 * 3 = " + Calculator.multiply(5, 3));
@@ -31,6 +39,7 @@ public class Main {
         Book.incrementTotalCount();
         System.out.println(java);
         System.out.println(python);
+         */
 
         /*
         Person ramez = new Person("Ramez", "male", 25);
